@@ -27,7 +27,12 @@ export class LoginclientComponent implements OnInit {
         businessname: data.businessname,
         email: data.email,
         role:"client",
-        solde:10000
+        solde:10000,
+        sex:data.sex,
+        shirtsize:data.shirtsize,
+        pantsize:data.pantsize,
+        height:data.height,
+        weight:data.weight
 
       }).then(()=>{
         console.log('register')

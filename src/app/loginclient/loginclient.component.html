@@ -45,6 +45,35 @@
                             <label>Password</label>
                             <input class="form-control" required name="password" #password="ngModel" ngModel type="password" placeholder="Password">
                         </div>
+                        <div class="col-md-6">
+                            <label>Sex</label>
+                            <select class="form-control" #sex="ngModel" name="sex" ngModel>
+                              <option>Female</option>
+                              <option>Male</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Height (cm)</label>
+                            <input class="form-control" required name="height" #height="ngModel" ngModel type="number" placeholder="height">
+                        </div>
+                        <div class="col-md-6">
+                            <label>Weight (kg)</label>
+                            <input class="form-control" required name="weight" #weight="ngModel" ngModel type="number" placeholder="weight">
+                        </div>
+                        <div class="col-md-6">
+                            <label>Shirt size</label>
+                            <select class="form-control" #shirtsize="ngModel" name="shirtsize" ngModel>
+                              <option>Adult(xs-s-m-l-xl)</option>
+                              <option>Children(xs-s-m-l-xl)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Pants Size</label>
+                            <select class="form-control" #pantsize="ngModel" name="pantsize" ngModel>
+                                <option>Adult(26-40)</option>
+                                <option>Children(4-16)</option>
+                            </select>
+                        </div>
                         <div class="col-md-12">
                             <button class="btn" type="submit">Register</button>
                         </div>
