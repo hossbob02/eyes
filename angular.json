@@ -94,7 +94,9 @@
             "styles": [
               "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           }
         },
         "lint": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ecommerce"
+    }
+  },
+  "defaultProject": "ecommerce",
+  "cli": {
+    "analytics": "32f22c30-b8a1-43e7-99b4-696d95a130c0"
+  }
 }
